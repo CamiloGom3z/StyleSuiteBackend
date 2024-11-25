@@ -1,0 +1,45 @@
+{
+  "applications": "*",
+  "changelogDate": "20241125143954",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "empleado",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apellido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cargo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "salario",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "urlmg",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estado",
+      "fieldType": "EstadoEmpleadoEnum",
+      "fieldValues": "DISPONIBLE,OCUPADO,SUSPENDIDO"
+    },
+    {
+      "fieldName": "establecimientoId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Empleado",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,45 @@
+{
+  "applications": "*",
+  "changelogDate": "20241125144001",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "pago",
+  "fields": [
+    {
+      "fieldName": "monto",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "fechaPago",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "metodoPago",
+      "fieldType": "MetodoPagoEnum",
+      "fieldValues": "EFECTIVO,TARJETA,TRANSFERENCIA,OTRO"
+    },
+    {
+      "fieldName": "estado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "citaId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "carritoId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pago",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

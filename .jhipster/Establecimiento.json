@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20241125143957",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "establecimiento",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "direccion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefono",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "correoElectronico",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlImg",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Establecimiento",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

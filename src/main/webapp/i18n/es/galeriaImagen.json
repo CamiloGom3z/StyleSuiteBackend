@@ -1,0 +1,27 @@
+{
+  "jhispterBackendApp": {
+    "galeriaImagen": {
+      "home": {
+        "title": "Galeria Imagens",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Galeria Imagen",
+        "createOrEditLabel": "Crear o editar Galeria Imagen",
+        "notFound": "Ningún Galeria Imagens encontrado"
+      },
+      "created": "Un nuevo Galeria Imagen ha sido creado con el identificador {{ param }}",
+      "updated": "Un Galeria Imagen ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Galeria Imagen ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Galeria Imagen {{ id }}?"
+      },
+      "detail": {
+        "title": "Galeria Imagen"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "descripcion": "Descripcion",
+      "urlImagen": "Url Imagen",
+      "establecimientoId": "Establecimiento Id"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20241125143956",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "servicios",
+  "fields": [
+    {
+      "fieldName": "valorServicio",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "tipoServicio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "establecimientoId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Servicios",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20241125143958",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "producto",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precio",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "urlImg",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoriaProductoId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "establecimientoId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Producto",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

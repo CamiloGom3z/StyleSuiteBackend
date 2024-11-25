@@ -1,0 +1,11 @@
+id;fecha_cita;estado;persona_id;nombre_persona;establecimiento_id;nombre_establecimiento;servicio_id;empleado_id;nombre_empleado;valor_servicio
+1;2024-11-25T03:32:14;PAGADA;49493;viral Buckinghamshire;19233;Ensalada;38505;86911;Suecia;83690
+2;2024-11-25T03:06:10;CONFIRMADA;24564;robust;87206;Producto Respuesta;87088;8315;Account;72248
+3;2024-11-25T10:20:59;PAGADA;77445;Belice de Extremadura;8704;index Canarias;89922;2578;invoice open-source Negro;44956
+4;2024-11-24T16:31:53;PENDIENTE;39532;software Granito Bricolaje;35819;mano Panamá;75603;91394;microchip mediante Azul;76949
+5;2024-11-24T23:34:12;CONFIRMADA;30312;program Navarra Práctico;49238;Lempira;18939;57229;Creativo;88621
+6;2024-11-24T17:21:45;PAGADA;95095;Amarillo interactiva mano;8256;facilitate lateral deposit;90772;63737;compress Negro synthesize;65253
+7;2024-11-25T09:54:08;CONFIRMADA;20387;Pequeño systems GB;11402;gráfico;98517;61595;Surinam Sabroso Baht;35677
+8;2024-11-25T11:15:33;CANCELADA;69256;Adelante middleware;54125;bricks-and-clicks;7280;63414;Salchichas Hecho Enfocado;64165
+9;2024-11-24T21:35:04;PENDIENTE;32860;Verde;61525;Navarra Murcia;60833;71201;Morado Papelería;71988
+10;2024-11-25T03:29:39;OTRO;28032;Papelería deposit;47074;Tunez Arquitecto;77994;21575;Hormigon Escudo;7849

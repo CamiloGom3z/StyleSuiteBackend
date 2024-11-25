@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20241125144000",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "galeria_imagen",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlImagen",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "establecimientoId",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "GaleriaImagen",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

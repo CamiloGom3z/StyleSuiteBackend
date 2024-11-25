@@ -1,0 +1,10 @@
+{
+  "jhispterBackendApp": {
+    "EstadoEmpleadoEnum": {
+      "null": "",
+      "DISPONIBLE": "DISPONIBLE",
+      "OCUPADO": "OCUPADO",
+      "SUSPENDIDO": "SUSPENDIDO"
+    }
+  }
+}
